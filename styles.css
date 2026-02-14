@@ -1,5 +1,7 @@
 /* styles.css */
-body 
+
+/* Fixed: added missing { after body */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,7 +9,8 @@ body
     overflow-x: hidden;
 }
 
-heade {
+/* Fixed: typo "heade" → "header" */
+header {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -30,17 +33,19 @@ nav ul li a {
     padding: 10px;
 }
 
+/* Fixed: added missing closing } for main section */
 main section {
     margin: 20px;
+}
 
-
+/* Fixed: added missing ; after bottom:0, corrected text-align, added missing closing } */
 footer {
     position: absolute;
-    bottom: 0
+    bottom: 0;
     right: 0;
     width: 100vw;
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align center;
+    text-align: center;
 }
